@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banker-Website Template by Colorlib</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <!-- Navigation Bar -->
+        <div id="navbar">
+            <!-- Logo -->
+            <span class="logo">Banker</span>
+            <!-- Right Panel -->
+            <div class="rightPanel">
+                <a id="active-link" href="#main_sec">Home</a>
+                <li class="dropdown">
+                    <a href="#about">About Us
+                        <img class="nav_img" width="20px" height="20px" src="../Task_1/images/down.svg" alt="">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#pricing_sec">Pricing</a></li>
+                        <li><a href="#faq_sec">FAQ</a></li>
+                        <li><a href="#gallery_sec">Gallery</a></li>
+                        <li><a href="#services_sec">Services</a></li>
+                        <li><a href="#customers_sec">Testimonials</a></li>
+                        <li class="more-dropdown">
+                            <a href="#">More Links &gt;</a>
+                            <ul class="more-menu">
+                                <li><a href="#">Menu 1</a></li>
+                                <li><a href="#">Menu 2</a></li>
+                                <li><a href="#">Menu 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <a href="#Blog">Blog</a>
+                <a href="#contact_us_sec">Contact</a>
+                <img class="nav_img" width="18px" height="18px" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="nav_img" width="18px" height="18px" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="nav_img" width="18px" height="18px" src="../Task_1/svgs/LinkedIn.svg" alt="">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Unicode for ☰ -->
+            </div>
+        </div>
+        <div class="separation">
+            <!-- It is for line -->
+        </div>
+        <div class="box">
+            <!-- This box is spreading darkness -->
+        </div>
+        <!-- Main Section-->
+          <div id="main_sec">
+  <div id="textSlides" class="text-slides">
+    <div class="text-slide slide_active">
+      <h1>SAVINGS ACCOUNTS</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci saepe
+                recusandae. Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="text-slide">
+      <h1>Banking Solution</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci saepe
+                recusandae. Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="text-slide">
+      <h1>Financial Solution</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci saepe
+                recusandae. Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+
+   <div class="Maindots">
+    <span class="maindot dot_active" onclick="goToTextSlide(0)"></span>
+    <span class="maindot" onclick="goToTextSlide(1)"></span>
+    <span class="maindot" onclick="goToTextSlide(2)"></span>
+  </div>
+
+</div>
+
+
+        <a href="#section2" class="scroll-indicator">
+            <span class="scroll-ball"></span>
+        </a>
+
+    </div>
+    <!-- 2nd Section -->
+    <section id="section2" class="section">
+        <div class="sec">
+            <img src="../Task_1/images/imgi_1_001-wallet.svg" alt="wallet">
+            <span>Money Savings</span>
+            <p>A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+
+        </div>
+        <div class="sec">
+            <img src="../Task_1/images/imgi_2_004-cart.svg" alt="cart">
+            <span>Online Shoppings</span>
+            <p>A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+        </div>
+        <div class="sec">
+            <img src="../Task_1/images/imgi_3_006-credit-card.svg" alt="credit-card">
+            <span>Credit / Debit Cards</span>
+            <p>A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+        </div>
+    </section>
+
+    <section class="other_sec">
+        <img width="600px" height="400px" src="../Task_1/images/imgi_4_about_2.jpg" alt="">
+        <div class="info">
+            <h2 class="heading">Amortization Computation</h2>
+            <p class="normal_font">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+            <div id="list" class="normal_font">
+
+                <div>
+                    <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                    <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                    <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                </div>
+                <div>
+                    <span>Officia quaerat eaque neque</span>
+                    <span>Lorem ipsum dolor sit amet</span>
+                    <span>Consectetur adipisicing elit</span>
+                </div>
+            </div>
+
+            <div id="ts_inputs">
+                <input id="input_email" type="email" id="email" name="Email" placeholder="Enter your email">
+                <button class="btn">Submit Email</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="other_sec_main">
+        <h1 class="orange_heading">About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+    </section>
+
+    <div class="other_sec">
+        <img width="600px" height="400px" src="../Task_1/images/imgi_5_hero_1.jpg" alt="">
+        <div class="info">
+            <h2 class="heading">We Solve Your Financial Problem</h2>
+            <p class="normal_font">
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                language
+                ocean.
+            </p>
+            <p class="normal_font">
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
+                a
+                paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+        </div>
+    </div>
+    <section class="other_sec_main">
+        <h1 class="orange_heading">Meet Team</h1>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    </section>
+
+    <section id="team">
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_6_person_5.jpg" alt="">
+            <span>Kaiara Spencer</span>
+            <span>FINANCE MANAGER</span>
+
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_7_person_6.jpg" alt="">
+            <span>Dave Simpson</span>
+            <span>BANK TELLER</span>
+            <div class="social-panel">
+                 <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_8_person_7.jpg" alt="">
+            <span>Ben Thompson</span>
+            <span>BANK TELLER</span>
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_9_person_8.jpg" alt="">
+            <span>Kyla Stewart</span>
+            <span>BANK TELLER</span>
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_10_person_1.jpg" alt="">
+            <span>Kaiara Spencer</span>
+            <span>FINANCE MANAGER</span>
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_11_person_2.jpg" alt="">
+            <span>Dave Simpson</span>
+            <span>ACCOUTANT</span>
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_12_person_3.jpg" alt="">
+            <span>Ben Thompson</span>
+            <span>ACCOUTANT</span>
+            <div class="social-panel">
+                <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+
+        <div class="team_box">
+            <img height="280px" width="280px" src="../Task_1/images/imgi_13_person_4.jpg" alt="">
+            <span>Chris Stewart</span>
+            <span>FINANCE MANAGER</span>
+            <div class="social-panel">
+               <img class="icon" src="../Task_1/svgs/facebook.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/twitter.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                <img class="icon" src="../Task_1/svgs/insta.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="other_sec_main">
+            <h1 class="orange_heading">Gallery</h1>
+        </div>
+        <div id="gallery_btn">
+            <button id="active_btn">ALL</button>
+            <button>EVENTS</button>
+            <button>PARTY</button>
+            <button>HOLIDAYS</button>
+        </div>
+    </section>
+
+    <section id="gallery_sec">
+        <div id="gallery_img">
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_14_img_1.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_18_img_5.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_15_img_2.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_14_img_1.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_16_img_3.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_15_img_2.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_16_img_3.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_18_img_5.jpg" alt="">
+
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_15_img_2.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_14_img_1.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_15_img_2.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+            <div class="images">
+                <img height="200px" width="300px" src="../Task_1/images/imgi_17_img_4.jpg" alt="">
+                <div class="hidden_image">
+                    <img width="25px" height="25px" src="../Task_1/svgs/search.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="other_sec_main">
+            <h1 class="orange_heading">How It Works</h1>
+            <p class="normal_font">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+        </div>
+
+        
+        <div class="slider-container">
+            <div class="slides">
+                <div class="other_sec slider_sec">
+                    <img width="600px" height="400px" src="../Task_1/images/imgi_21_slide_1.jpg" alt="">
+                    <div class="info">
+                        <h1 class="orange_heading">01. Online Applications</h1>
+                        <p class="normal_font">A small river named Duden flows by their place and supplies it with the
+                            necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                            into your mouth.</p>
+                        <button class="lm_btn btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="other_sec slider_sec">
+                    <img width="600px" height="400px" src="../Task_1/images/imgi_19_slide_2.jpg" alt="">
+                    <div class="info">
+                        <h1 class="orange_heading">02. Get an approval</h1>
+                        <p class="normal_font">A small river named Duden flows by their place and supplies it with the
+                            necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                            into your mouth.</p>
+                        <button class="lm_btn btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="other_sec slider_sec">
+                    <img width="600px" height="400px" src="../Task_1/images/imgi_20_slide_3.jpg" alt="">
+                    <div class="info">
+                        <h1 class="orange_heading">03. Card Delivery</h1>
+                        <p class="normal_font">A small river named Duden flows by their place and supplies it with the
+                            necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                            into your mouth.</p>
+                        <button class="lm_btn btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="prevSlide()" class="nav-btn left">
+                <img width="20px" height="20px" src="../Task_1/images/left_arrow.png" alt="">
+            </button>
+            <button onclick="nextSlide()" class="nav-btn right">
+                <img width="20px" height="20px" src="../Task_1/images/right_arrow.png" alt="">
+            </button>
+        </div>
+    </section>
+
+    <section id="services_sec">
+        <h1 class="orange_heading">Our Services</h1>
+        <div id="services_details">
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_1_001-wallet.svg" alt="">
+                <span>Business Consulting</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_3_006-credit-card.svg" alt="">
+                <span>Credit Card</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_22_002-rich.svg" alt="">
+                <span>Income Monitoring</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_23_003-notes.svg" alt="">
+                <span>Insurance Consulting</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_2_004-cart.svg" alt="">
+                <span>Financial Investment</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+
+            <div id="services">
+                <img height="100px" width="100px" src="../Task_1/images/imgi_24_005-megaphone.svg" alt="">
+                <span>Financial Management</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <span>Learn More</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="customers_sec">
+        <div class="testimonial-container">
+            <h1 class="orange_heading">Happy Customers</h1>
+            <div class="testimonial-slider-wrapper">
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p class="italic-testimonial">“The Big Oxmox advised her not to do so, because there were
+                            thousands of
+                            bad Commas, wild Question
+                            Marks and
+                            devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia,
+                            put her
+                            initial
+                            into the belt and made herself on the way.”</p>
+                        <div class="user_account">
+                            <img height="60px" width="60px" src="../Task_1/images/imgi_12_person_3.jpg" alt="">
+                            <span>Bruce Roger</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="italic-testimonial">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                            a large
+                            language ocean.”</p>
+                        <div class="user_account">
+                            <img height="60px" width="60px" src="../Task_1/images/imgi_11_person_2.jpg" alt="">
+                            <span>John Smith</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="italic-testimonial">
+                            “A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia. It is
+                            a paradisematic country, in which roasted parts of sentences fly into your mouth.”</p>
+                        <div class="user_account">
+                            <img height="60px" width="60px" src="../Task_1/images/imgi_18_img_5.jpg" alt="">
+                            <span>Christine Aguilar</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="italic-testimonial">
+                            “Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic
+                            life One day however a small line of blind text by the name of Lorem Ipsum decided to leave
+                            for the
+                            far World of Grammar.”</p>
+                        <div class="user_account">
+                            <img height="60px" width="60px" src="../Task_1/images/imgi_17_img_4.jpg" alt="">
+                            <span>Robert Spears</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="pricing_sec">
+        <h1 class="orange_heading">Pricing</h1>
+        <div id="pricing">
+            <div class="pricing_card">
+                <h2>Basic</h2>
+                <div class="amount">
+                    <h1 class="orange_heading">$47</h1>
+                    <div>/ year</div>
+                </div>
+                <div id="list" class="normal_font">
+
+                    <div>
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                    </div>
+                    <div>
+                        <span>Officia quaerat eaque neque</span>
+                        <span>Possimus aut consequuntur</span>
+                        <span>Lorem ipsum dolor sit amet</span>
+                    </div>
+                </div>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="pricing_card">
+                <h2>Premium</h2>
+                <div class="amount">
+                    <h1 class="orange_heading">$200</h1>
+                    <div>/ year</div>
+                </div>
+                <div id="list" class="normal_font">
+
+                    <div>
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                    </div>
+                    <div>
+                        <span>Officia quaerat eaque neque</span>
+                        <span>Possimus aut consequuntur</span>
+                        <span>Lorem ipsum dolor sit amet</span>
+                        <span>Consectetur adipisicing elit</span>
+                    </div>
+                </div>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="pricing_card">
+                <h2>Professional</h2>
+                <div class="amount">
+                    <h1 class="orange_heading">$750</h1>
+                    <div>/ year</div>
+                </div>
+                <div id="list" class="normal_font">
+
+                    <div>
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                        <img width="22px" height="22px" src="../Task_1/images/checkmark.png" alt="">
+                    </div>
+                    <div>
+                        <span>Officia quaerat eaque neque</span>
+                        <span>Possimus aut consequuntur</span>
+                        <span>Lorem ipsum dolor sit amet</span>
+                        <span>Consectetur adipisicing elit</span>
+                        <span>Dolorum esse odio quas architecto sint</span>
+                    </div>
+                </div>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq_sec" class="SECTION">
+        <h1 class="orange_heading">Frequently Ask Questions</h1>
+        <div id="faq">
+            <div class="faq_card">
+                <h2 class="med_font">Can I accept both Paypal and Stripe?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+
+                <h2 class="med_font">What available is refund period?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+
+                <h2 class="med_font">Can I accept both Paypal and Stripe?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+
+                <h2 class="med_font">What available is refund period?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+            </div>
+
+            <div class="faq_card">
+                <h2 class="med_font">Where are you from?</h2>
+                <p class="normal_font">Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime
+                    corporis officia et. Distinctio assumenda minima maiores.</p>
+
+                <h2 class="med_font">What is your opening time?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+
+                <h2 class="med_font">Can I accept both Paypal and Stripe?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+
+                <h2 class="med_font">What available is refund period?</h2>
+                <p class="normal_font">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="other_sec">
+            <img width="600px" height="400px" src="../Task_1/images/imgi_5_hero_1.jpg" alt="">
+            <div class="info">
+                <div class="box_bank">
+                    <img id="img1" width="80px" height="80px" src="../Task_1/images/thinking_icon.png" alt="">
+                    <div>
+                        <h2>Bank Loan</h2>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there
+                            live the blind texts.
+                        </p>
+                        <span>Learn More</span>
+                    </div>
+                </div>
+
+                <div class="box_bank">
+                    <img id="img2" width="80px" height="80px" src="../Task_1/images/banking.png" alt="">
+                    <div>
+                        <h2 class="med_font">Banking Consulation</h2>
+                        <p>
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean.
+                        </p>
+                        <span>Learn More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="other_sec_main">
+            <h1 class="orange_heading">Our Blog</h1>
+        </div>
+
+        <div id="Blog">
+            <div class="blog_card">
+                <img width="400px" height="265px" src="../Task_1/images/imgi_14_img_1.jpg" alt="">
+                <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+                <div>
+                    <span>Ham Brook</span>
+                    <span> • Jan 18, 2019</span>
+                    <span class="unique">• News</span>
+                </div>
+                <p class="normal_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea
+                    maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <span class="unique">Continue Reading...</span>
+            </div>
+
+            <div class="blog_card">
+                <img width="400px" height="265px" src="../Task_1/images/imgi_17_img_4.jpg" alt="">
+                <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+                <div>
+                    <span>Ham Brook</span>
+                    <span> • Jan 18, 2019</span>
+                    <span class="unique"> • News</span>
+                </div>
+                <p class="normal_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea
+                    maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <span class="unique">Continue Reading...</span>
+            </div>
+
+            <div class="blog_card">
+                <img width="400px" height="265px" src="../Task_1/images/imgi_16_img_3.jpg" alt="">
+                <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+                <div>
+                    <span>Ham Brook</span>
+                    <span> • Jan 18, 2019</span>
+                    <span class="unique">• News</span>
+                </div>
+                <p class="normal_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea
+                    maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <span class="unique">Continue Reading...</span>
+            </div>
+        </div>
+    </section>
+    <section id="contact_us_sec">
+        <div class="other_sec_main">
+            <h1 class="orange_heading">Contact Us</h1>
+        </div>
+        <div id="contact_us">
+            <div>
+                <img width="30px" height="30px" src="../Task_1/images/location.png" alt="">
+                <p class="normal_font">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div>
+                <img width="30px" height="30px" src="../Task_1/images/phone.png" alt="">
+                <p class="cu_para">+1 232 3235 324</p>
+            </div>
+            <div>
+                <img width="30px" height="30px" src="../Task_1/images/mail.png" alt="">
+                <p class="cu_para">[email protected]</p>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <form action="backend.php">
+            <h2>Contact Form</h2>
+            <div id="fL_name">
+                <div>
+                    <label for="name">First Name</label>
+                    <input class="input input_unique" type="text" name="myname" id="name" placeholder="Ali" required>
+                </div>
+                <div>
+                    <label for="name">Last Name</label>
+                    <input class="input input_unique" type="text" name="myname" id="name" placeholder="Ali" required>
+                </div>
+            </div>
+            <label for="email">Email</label>
+            <div>
+                <input class="input" type="email" name="email" id="email" placeholder="ali@gmail.com" required>
+            </div>
+            <label for="name">Subject</label>
+            <div>
+                <input class="input" type="text" name="myname" id="name" placeholder="Ali" required>
+            </div>
+            <label for="address">Message</label>
+            <div>
+                <textarea class="input" name="address" id="address" rows="8" cols="100"
+                    placeholder="Write you notes or question here... "></textarea>
+            </div>
+            <div>
+                <input class="btn" type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div id="footer">
+            <div id="footer_p1">
+                <!-- portion 1 -->
+                <div id="footer_about">
+                    <span class="white_font">About Us</span>
+                    <p class="grey_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere
+                        laudantium magnam
+                        voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                </div>
+                <div id="quicklinks">
+                    <span class="white_font">Quick Links</span>
+                    <a class="grey_font" href="#">Terms</a>
+                    <a class="grey_font" href="#">Policy</a>
+                    <a class="grey_font" href="#">About Us</a>
+                    <a class="grey_font" href="#">Services</a>
+                    <a class="grey_font" href="#">Testimonials</a>
+                    <a class="grey_font" href="#">Contact Us</a>
+                </div>
+                <div id="follow_us">
+                    <span class="white_font">Follow Us</span>
+                    <div>
+                        <img width="18px" height="18px" src="../Task_1/svgs/facebook.svg" alt="">
+                        <img width="18px" height="18px" src="../Task_1/svgs/twitter.svg" alt="">
+                        <img width="18px" height="18px" src="../Task_1/svgs/insta.svg" alt="">
+                        <img width="18px" height="18px" src="../Task_1/svgs/LinkedIn.svg" alt="">
+                    </div>
+                </div>
+                <div id="subscribe">
+                    <span class="white_font">Subscribe NewsLetter</span>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Enter Email">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+            <div id="footer_seperate">
+                <!-- Seperation -->
+            </div>
+            <div id="copyright">
+                <span>Copyright ©2025 All rights reserved | This template is made with by</span>
+                <img height="15px" width="15px" src="../Task_1/svgs/Heart.svg" alt="">
+                <a href="#">Colorlib</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
