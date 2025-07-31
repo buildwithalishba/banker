@@ -11,7 +11,7 @@ body {
 }
 
 .mainContainer {
-    background-image: url("../Task_1/images/imgi_20_slide_3.jpg");
+    background-image: url("./images/imgi_20_slide_3.jpg");
     background-size: max(1423px, 100vw);
     /* background-size: 1423px; */
     background-repeat: no-repeat;
@@ -314,6 +314,12 @@ width:25px;
     width: 100%;
     height: 450px;
 }
+.secondsection{
+     display: flex;
+    height: 450px;
+    justify-content: center;
+}
+
 
 .sec {
     display: flex;
@@ -402,11 +408,6 @@ width:25px;
     right: 39rem;
         padding: 20px 30px;
 }
-
-
-
-
-
 
 
 
@@ -525,15 +526,15 @@ width:25px;
 .social-panel {
     display: none;
     position: absolute;
+   
 }
 
 .team_box:hover .social-panel {
-    display: flex;
+     display: flex;
     flex-direction: column;
-    height: 240px;
-    top: 19px;
-    /* bottom: 500px; */
-    width: 14px;
+    height: 280px;
+    top: 0px;
+    width: 53px;
     padding: 20px;
     background-color: #fd7e14;
 }
@@ -1115,6 +1116,10 @@ form h2 {
         flex-direction: column;
         height: auto;
     }
+    .secondsection{
+        flex-direction: column;
+        height: auto;
+    }
 
     .info {
         padding: 20px 0 0 0;
@@ -1258,6 +1263,18 @@ form h2 {
     .input {
         width: 18rem;
     }
+    .left {
+    left: 8rem;
+    top: 16rem;
+    padding: 20px 30px;
+}
+
+.right {
+   left: 12rem;
+    top: 16rem;
+        padding: 20px 30px;
+}
+
 }
 
 @media screen and (min-width: 1673px) and (max-width: 4888px) {
